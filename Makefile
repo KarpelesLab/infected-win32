@@ -1,7 +1,7 @@
 #!/bin/make
 
 CC=i686-w64-mingw32-gcc
-CFLAGS=-Wall -mwindows
+CFLAGS=-Wall -mwindows -O3
 TARGET=infected-win32.exe
 OBJS=main.o
 
